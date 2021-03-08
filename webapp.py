@@ -19,7 +19,7 @@ def render_response():
     else if food == 'burgers':
         reply = "Some good burger places are In-n-Out, Habit, and Island Burger."
     else:
-        reply = "My favorite color is pink."
+        reply = "Please try another type of food."
     return render_template('response.html', response = reply)
     
 if __name__=="__main__":
