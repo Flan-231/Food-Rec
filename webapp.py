@@ -16,7 +16,7 @@ def render_response():
     if food == 'pizza':
         reply = "Some good pizza places are Rustys, Dominos, Little Caesars."
         
-    else if food == 'burgers':
+    elif food == 'burgers':
         reply = "Some good burger places are In-n-Out, Habit, and Island Burger."
     else:
         reply = "Please try another type of food."
