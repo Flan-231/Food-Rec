@@ -14,9 +14,9 @@ def render_response():
     #The information in args is visible in the url for the page being requested. ex. .../response?color=blue
     if food == 'pizza':
         reply = "Some good pizza places are Rustys, Dominos, Little Caesars."
-    if food == 'burgers':
+    elif food == 'burgers':
         reply = "Some good burger places are In-n-Out, Habit, and Island Burger."
-    if food == 'ice cream':
+    elif food == 'ice cream':
         reply = "Some good ice cream places are Mission Street Ice Cream, Mcconnells, and Cold Stone."
     else:
         reply = "Please try another food type."
