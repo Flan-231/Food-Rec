@@ -9,3 +9,11 @@ h1
 	font-size: 35px;
 	font-family: "Lucida Handwriting", cursive;
 }
+input[type=text] 
+{
+  width: 100%;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid blue;
+}
