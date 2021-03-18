@@ -16,11 +16,13 @@ def render_response():
         reply = "Some good pizza places are Rustys, Dominos, Little Caesars."
     elif food == 'burgers':
         reply = "Some good burger places are In-n-Out, Habit, and Island Burger."
-    elif food == 'ice cream':
+        
+    if food == 'ice cream':
         reply = "Some good ice cream places are Mission Street Ice Cream, Mcconnells, and Cold Stone."
-    else:
-        reply = "Please try another food type."
+    elif food == 'salads':
+        reply = "Some places with good salads are Mesa Verde, The Natural Cafe and Savoy cake & Deli"
     return render_template('response.html', response = reply)
     
 if __name__=="__main__":
     app.run(debug=False, port=54321)
+
