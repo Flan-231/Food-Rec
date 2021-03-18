@@ -13,11 +13,10 @@ def render_response():
     #args is an ImmutableMultiDict (like a dictionary but can have mutliple values for the same key and can't be changed)
     #The information in args is visible in the url for the page being requested. ex. .../response?color=blue
   
- if food == 'pizza':
+if food == 'pizza':
         reply = "Some good pizza places are Rustys, Dominos, Little Caesars."
     elif food == 'burgers':
         reply = "Some good burger places are In-n-Out, Habit, and Island Burger."
-        
     elif food == 'ice cream':
         reply = "Some good ice cream places are Mission Street Ice Cream, Mcconnells, and Cold Stone."
     elif food == 'salads':
@@ -30,4 +29,5 @@ def render_response():
     
 if __name__=="__main__":
     app.run(debug=False, port=54321)
+
 
