@@ -18,7 +18,7 @@ input[type=text]
   box-sizing: border-box;
   border: none;
   border-bottom: 2px solid blue;
-  width: 25%;
+  width: 15%;
 }
 
 table {
